@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Neucha&family=Pangolin&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.min.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo" />
+                </div>
+                <h1><span>К</span>алькулятор <span>П</span>литки</h1>
+            </header>
+
+            <div class="content">
+                <div class="container">
+                    <div class="room-options">
+                        <h2>Размеры комнаты</h2>
+                        <div class="length-room">
+                            <label for="length">Длина, м</label>
+                            <input type="text" class="field length" required />
+                        </div>
+
+                        <div class="width-room">
+                            <label for="width">Ширина, м</label>
+                            <input type="text" class="field width" required />
+                        </div>
+
+                        <div class="height-room">
+                            <label for="height">Высота, м</label>
+                            <input type="text" class="field height" required />
+                        </div>
+                    </div>
+
+                    <div class="door-options">
+                        <h2>Размеры дверного проёма</h2>
+
+                        <label>Ширина, м</label>
+                        <input type="text" class="field door-width" required />
+
+                        <label>Высота, м</label>
+                        <input type="text" class="field door-height" required />
+                    </div>
+
+                    <div class="tile-size">
+                        <h2>Размеры плитки, см</h2>
+
+                        <select class="tile">
+                            <option value="20X30">20X30</option>
+                            <option value="30X60">30X60</option>
+                            <option value="40X80">40X80</option>
+                        </select>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn btn-result">
+                            <span>Рассчитать</span>
+                        </button>
+                        <button class="btn btn-clear">
+                            <span> Очистить поля</span>
+                        </button>
+                    </div>
+
+                    <div class="result">
+                        <p class="room-area">
+                            Площадь комнаты, м<sup>2</sup><br />
+                            <span></span>
+                        </p>
+                        <p class="tile-count">
+                            Количество плитки, шт<br />
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="preview"></div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
