@@ -69,7 +69,7 @@ h2 {
                 right: -40px;
                 width: 80px;
                 height: 80px;
-                background: url('../img/arrows.png');
+                background-image: url('../img/arrows.png');
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -82,7 +82,7 @@ h2 {
                 left: -35px;
                 width: 130px;
                 height: 130px;
-                background: url('../img/line.png');
+                background-image: url('../img/line.png');
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -223,14 +223,14 @@ h2 {
         width: 800px;
         height: 800px;
         overflow: hidden;
-        background: url('../img/preview.jpg') center no-repeat;
+        background-image: url('../img/preview.jpg') center no-repeat;
         margin: 0;
         display: flex;
         align-content: flex-start;
         flex-wrap: wrap;
         box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.6);
         .block-20X30 {
-            background: url('../img/166009_1.jpeg');
+            background-image: url('../img/166009_1.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             width: 40px;
@@ -238,7 +238,7 @@ h2 {
             margin: 2px 0 0 2px;
         }
         .block-30X60 {
-            background: url('../img/1450613_4.jpeg');
+            background-image: url('../img/1450613_4.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             width: 60px;
@@ -246,7 +246,7 @@ h2 {
             margin: 2px 0 0 2px;
         }
         .block-40X80 {
-            background: url('../img/616138_4.jpeg');
+            background-image: url('../img/616138_4.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             width: 80px;
